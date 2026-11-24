@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fitness – We Don’t Just Practice, But Calm The Soul</title>
+<meta name="description" content="Fitness: komunitas latihan yang ramah pemula, dengan konsultasi gratis dan trainer profesional.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="logo-mark" viewBox="0 0 54 42">
+    <circle cx="15.5" cy="26.5" r="15.5" fill="#ffe072"/>
+    <path d="M39 0a15 15 0 1 1-8.2 27.6A15.5 15.5 0 0 0 39 0z" fill="#1ab9bf"/>
+    <path d="M6 28h18v4H6zM8 24h3v12H8zm11 0h3v12h-3z" fill="currentColor"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.6 7H4v.6l8 5.6 8-5.6V7h-.6zM4 17h16V9.9l-8 5.6-8-5.6z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 12 6"><path d="M1 1l5 4 5-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15 9.5a3.7 3.7 0 1 0 0 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="Fitness, ke atas">
+      <svg class="brand-mark" width="54" height="42"><use href="#logo-mark"/></svg>
+      <span>Fitness</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Utama">
+      <a href="#top" class="active">Home</a>
+      <div class="has-sub">
+        <button type="button" class="sub-toggle" aria-expanded="false">Layanan <svg width="12" height="6"><use href="#i-chev"/></svg></button>
+        <div class="sub">
+          <a href="#solusi">Kelas Latihan</a>
+          <a href="#trainer">Personal Trainer</a>
+          <a href="#kontak">Konsultasi</a>
+        </div>
+      </div>
+      <a href="#trainer">Tentang Kami</a>
+      <a href="#member">Artikel</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <img class="hero-img" src="images/hero.jpg" alt="Alat latihan kettlebell dan dumbbell di dalam gym">
+    <div class="hero-copy">
+      <h1>We Dont Just Practice<br>But Calms The Soul</h1>
+      <p>Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue.</p>
+    </div>
+  </section>
+
+  <section class="band" aria-label="Keunggulan">
+    <ul>
+      <li>Beginner Friendly</li>
+      <li>Solid Community</li>
+      <li>Free Consultation</li>
+      <li>Trainer Professional</li>
+    </ul>
+  </section>
+
+  <div class="showcase" id="solusi">
+    <div class="wrap">
+      <div class="video">
+        <img src="images/video.jpg" alt="Cuplikan video latihan di gym">
+        <button class="play" id="play" aria-label="Putar video" data-video="">
+          <svg viewBox="0 0 80 80" width="80" height="80"><circle cx="40" cy="40" r="33.5" fill="#ff1515"/><path d="M32 26v28l24-14z" fill="#fff"/></svg>
+        </button>
+      </div>
+
+      <div class="solution">
+        <div class="solution-copy">
+          <h2>Fitness is The Best Solution For You</h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue. Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue.</p>
+          <a class="btn-pill" href="#kontak">Contact Now</a>
+        </div>
+
+        <aside class="contact-card" id="kontak">
+          <h3>Contact Us!</h3>
+          <ul>
+            <li><svg width="35" height="35"><use href="#i-mail"/></svg><div><strong>Email</strong><span>hello@fitness.id</span></div></li>
+            <li><svg width="35" height="35"><use href="#i-phone"/></svg><div><strong>Phone</strong><span>+62 812 0000 0000</span></div></li>
+            <li><svg width="35" height="35"><use href="#i-pin"/></svg><div><strong>Location</strong><span>Semarang, Jawa Tengah</span></div></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <section class="trainer wrap" id="trainer">
+    <div class="trainer-head">
+      <img src="images/trainer-banner.jpg" alt="Para trainer sedang berlatih bersama">
+      <div>
+        <h2>Trainer Professional</h2>
+        <p>Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue.</p>
+      </div>
+    </div>
+    <div class="trainer-grid">
+      <figure><figcaption>Cevalline Hyen</figcaption><img src="images/t1.jpg" alt="Cevalline Hyen" loading="lazy"></figure>
+      <figure><figcaption>Step Hanson</figcaption><img src="images/t2.jpg" alt="Step Hanson" loading="lazy"></figure>
+      <figure><figcaption>Angela Traine</figcaption><img src="images/t3.jpg" alt="Angela Traine" loading="lazy"></figure>
+      <figure><figcaption>Robert Bert</figcaption><img src="images/t4.jpg" alt="Robert Bert" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="members wrap" id="member">
+    <h2>They Are Happy Members</h2>
+    <div class="reviews">
+      <article class="review">
+        <header><img src="images/avatar.jpg" alt="" loading="lazy"><div><strong>Rina Sari</strong><span>CV. CAN Creative</span></div></header>
+        <p>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+      </article>
+      <article class="review">
+        <header><img src="images/avatar.jpg" alt="" loading="lazy"><div><strong>Dimas Putra</strong><span>CV. CAN Creative</span></div></header>
+        <p>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+      </article>
+      <article class="review">
+        <header><img src="images/avatar.jpg" alt="" loading="lazy"><div><strong>Nadia Putri</strong><span>CV. CAN Creative</span></div></header>
+        <p>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="cta">
+    <div class="cta-in">
+      <h2>Join Our Member Now!</h2>
+      <a class="btn-yellow" href="#kontak">Contact</a>
+    </div>
+  </div>
+  <div class="foot-body">
+    <a class="brand" href="#top" aria-label="Fitness, ke atas">
+      <svg class="brand-mark" width="54" height="42"><use href="#logo-mark"/></svg>
+      <span>Fitness</span>
+    </a>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="#top">Home</a>
+      <a href="#solusi">Layanan</a>
+      <a href="#trainer">Tentang Kami</a>
+      <a href="#member">Artikel</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <hr>
+    <p class="copy"><svg width="24" height="24"><use href="#i-copy"/></svg> 2023 Fitnes. All rights reserved.</p>
+  </div>
+</footer>
+
+<dialog class="modal" id="modal">
+  <button class="close" id="close" aria-label="Tutup">&times;</button>
+  <div class="modal-body" id="modal-body"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
