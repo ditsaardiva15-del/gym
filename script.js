@@ -37,7 +37,7 @@ const io = new IntersectionObserver(entries => {
 }, { rootMargin: '-45% 0px -50% 0px' });
 ['top', 'trainer', 'member'].forEach(id => { const el = document.getElementById(id); if (el) io.observe(el); });
 
-// Modal video: isi atribut data-video pada tombol play dengan URL embed (mis. YouTube)
+// Modal video: isi video link
 const modal = document.getElementById('modal');
 const body = document.getElementById('modal-body');
 const play = document.getElementById('play');
@@ -45,7 +45,7 @@ play.addEventListener('click', () => {
   const src = play.dataset.video;
   body.innerHTML = src
     ? `<iframe src="${src}" title="Video Fitness" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`
-    : '<p>Isi atribut <code>data-video</code> pada tombol play di index.html dengan link embed video kamu.</p>';
+    : '<p>hanya foto reverensi.</p>';
   modal.showModal();
 });
 const closeModal = () => { modal.close(); body.innerHTML = ''; };
